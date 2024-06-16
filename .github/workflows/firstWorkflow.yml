@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: say-hello
-      run: echo "Hi There!!"
+      run: |
+        echo "Hi There!!"
+        echo "How are you!!"
+
     - name: say-goodbye
-      run: echo "Goodbye There!!"
+      run: |
+        echo "Goodbye There!!"
